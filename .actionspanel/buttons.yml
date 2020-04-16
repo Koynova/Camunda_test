@@ -1,25 +1,25 @@
-кнопки :
-  - title : Развертывание рабочих процессов в Camunda Cloud
-    действие : " deploy_workflows "
-    описание : разверните демонстрационные рабочие процессы на своем кластере Camunda Cloud Zeebe
-  - title : Run Get Time Demo
-    действие : " get_time "
-    описание : Запустите демонстрационный рабочий процесс "Get Time"
-  - title : Run Get Time Demo 2
-    действие : " get_time_2 "
-    описание : Запустите демонстрационный рабочий процесс "Get Time No. 2"
-  - title : Run Get Greeting Demo
-    действие : " get_greeting "
-    description : Запустите демонстрационный рабочий процесс "Get Greeting"
-  - title : Run Get Greeting 2 Demo
-    действие : " get_greeting_2 "
-    description : Запустите демонстрационный рабочий процесс "Get Greeting No. 2"
-  - title : Start Workers
-    действие : " start_workers "
-    описание : Начало Zeebe Workers
-  - название : Restock Shop
-    действие : " restock_shop "
-    описание : Restock демо-магазин электронной коммерции
-  - title : Drop Database
-    действие : " drop_db "
-    описание : Drop Database
+buttons:
+  - title: Deploy Workflows to Camunda Cloud
+    action: "deploy_workflows"
+    description: Deploy the demo workflows to your Camunda Cloud Zeebe cluster
+  - title: Run Get Time Demo
+    action: "get_time"
+    description: Run the "Get Time" demo workflow
+  - title: Run Get Time Demo 2
+    action: "get_time_2"
+    description: Run the "Get Time No. 2" demo workflow
+  - title: Run Get Greeting Demo
+    action: "get_greeting"
+    description: Run the "Get Greeting" demo workflow
+  - title: Run Get Greeting 2 Demo
+    action: "get_greeting_2"
+    description: Run the "Get Greeting No. 2" demo workflow
+  - title: Start Workers
+    action: "start_workers"
+    description: Start Zeebe Workers
+  - title: Restock Shop
+    action: "restock_shop"
+    description: Restock the demo ecommerce store
+  - title: Drop Database
+    action: "drop_db"
+    description: Drop Database
