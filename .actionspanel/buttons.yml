@@ -1,0 +1,25 @@
+кнопки :
+  - title : Развертывание рабочих процессов в Camunda Cloud
+    действие : " deploy_workflows "
+    описание : разверните демонстрационные рабочие процессы на своем кластере Camunda Cloud Zeebe
+  - title : Run Get Time Demo
+    действие : " get_time "
+    описание : Запустите демонстрационный рабочий процесс "Get Time"
+  - title : Run Get Time Demo 2
+    действие : " get_time_2 "
+    описание : Запустите демонстрационный рабочий процесс "Get Time No. 2"
+  - title : Run Get Greeting Demo
+    действие : " get_greeting "
+    description : Запустите демонстрационный рабочий процесс "Get Greeting"
+  - title : Run Get Greeting 2 Demo
+    действие : " get_greeting_2 "
+    description : Запустите демонстрационный рабочий процесс "Get Greeting No. 2"
+  - title : Start Workers
+    действие : " start_workers "
+    описание : Начало Zeebe Workers
+  - название : Restock Shop
+    действие : " restock_shop "
+    описание : Restock демо-магазин электронной коммерции
+  - title : Drop Database
+    действие : " drop_db "
+    описание : Drop Database
