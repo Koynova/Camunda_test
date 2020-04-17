@@ -1,18 +1,23 @@
 name: Deploy Workflows
 
-on: [repository_dispatch]
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'bpmn/*'
 
 jobs:
   deploy-workflows:
-    if: github.event.action == 'deploy_workflows'
+    runs-on: ubuntu-latest
 
     runs-on: ubuntu-latest
 
     steps:
       - uses: actions/checkout@v2
-      - name: Deploy Demo Workflows
+      - name: Deploy Updated Workflows
         uses: jwulf/zeebe-action@master
         with:
-          clientConfig: ${{ secrets.ZEEBE_CLIENT_CONFIG }}
+          client_config: ${{ secrets.ZEEBE_CLIENT_CONFIG }}
           operation: deployWorkflow
-          bpmnDirectory: bpmn
+          bpmn_directory: bpmn
