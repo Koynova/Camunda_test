@@ -12,7 +12,7 @@
           <zeebe:loopCharacteristics inputCollection="products" inputElement="product" />
         </bpmn:extensionElements>
       </bpmn:multiInstanceLoopCharacteristics>
-      <bpmn:startEvent id="StartEvent_0qjdtfl" name="Restock item">
+      <bpmn:startEvent id="StartEvent_0qjdtfl" name="Restock iten">
         <bpmn:outgoing>SequenceFlow_02ilmei</bpmn:outgoing>
       </bpmn:startEvent>
       <bpmn:serviceTask id="Task_1u4uohx" name="Create Stock Record">
